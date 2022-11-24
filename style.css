@@ -352,8 +352,8 @@ ________________________________________________________________________________
 .etiT{
     position: absolute;
     font-size: 8vw;
-    left: 37%;
-    right: 33%;
+    left: 35%;
+    right: 35%;
     top: 7%;
     font-family: "eras-demi";
 }
@@ -407,4 +407,59 @@ ________________________________________________________________________________
     bottom: 5%;
     left: 5%;
     right: 85%;
+}
+
+/*
+_______________________________________________________________________________________________________________________________________________________________
+                                PIE DE PAGINA: SOBRE NOSOTROS
+_______________________________________________________________________________________________________________________________________________________________
+*/
+
+footer{
+    height: 75vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-color: #7ED957;
+}
+
+footer h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3vh;
+    letter-spacing: 3px;
+}
+
+footer p {
+    text-justify: auto;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
+.ft1{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    right: 80%;
+}
+
+.ft2{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    right: 55%;
+}
+
+.ft3{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    right: 30%;
+}
+
+.ft4{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    right: 5%;
 }
