@@ -358,6 +358,15 @@ ________________________________________________________________________________
     font-family: "eras-demi";
 }
 
+.etiTL{
+    position: absolute;
+    font-size: 8vw;
+    left: 40%;
+    right: 30%;
+    top: 7%;
+    font-family: "eras-demi";
+}
+
 .etip{
     position: relative;
     height: 100vh;
@@ -407,6 +416,11 @@ ________________________________________________________________________________
     bottom: 5%;
     left: 5%;
     right: 85%;
+}
+
+.etilab{
+    height: 3vh;
+    background-color: #008037;
 }
 
 /*
