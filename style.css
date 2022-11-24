@@ -6,8 +6,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "eras";
+    src: url("font/eras-book.otf");
+}
+
+@font-face {
+    font-family: "eras-demi";
+    src: url("font/eras-demi.otf");
+}
+
 body {
     background-color: rgb(247, 252, 254);
+    font-family: "eras";
 }
 
 /*
@@ -27,7 +38,7 @@ nav {
     position: fixed;
     top: 0;
     padding: 0.6vh 2vh;
-    font-family: sans-serif;
+    font-family: "eras";
     box-shadow: 0 20px 30px rgba(247, 252, 254, 0.15);
     z-index: 10;
 }
@@ -82,7 +93,7 @@ nav a {
     color: black;
     letter-spacing: 1px;
     font-style: italic;
-    font-family: sans-serif;
+    font-family: "eras-demi";
     font-size: 4.5vw;
     text-align: center;
     margin: 0 auto;
@@ -93,7 +104,7 @@ nav a {
     color: black;
     letter-spacing: 1px;
     font-style: italic;
-    font-family: sans-serif;
+    font-family: "eras";
     font-size: 1.1vw;
     position: absolute;
     bottom: 35%;
@@ -104,7 +115,7 @@ nav a {
     color: black;
     letter-spacing: 1px;
     font-style: italic;
-    font-family: sans-serif;
+    font-family: "eras";
     font-size: 0.9vw;
     position: relative;
     text-align: center;
@@ -117,6 +128,7 @@ nav a {
     background: transparent;
     color: rgb(0, 153, 255);
     font-size: 1.5vw;
+    font-family: "eras";
     text-decoration: none;
     position: fixed;
     bottom: 10%;
@@ -153,7 +165,7 @@ ________________________________________________________________________________
     color: #008037;
     letter-spacing: 1px;
     font-style: italic;
-    font-family: sans-serif;
+    font-family: -"eras-demi";
     font-size: 9vw;
     position: absolute;
     top: 40%;
@@ -166,7 +178,7 @@ ________________________________________________________________________________
     color: black;
     letter-spacing: 1px;
     font-style: italic;
-    font-family: sans-serif;
+    font-family: "eras";
     font-size: 2vw;
     position: absolute;
     top: 35%;
@@ -205,7 +217,7 @@ ________________________________________________________________________________
     text-align: center;
     font-size: 8vw;
     color: white;
-    font-family: sans-serif;
+    font-family: "eras-demi";
 }
 
 .timeline {
@@ -337,10 +349,62 @@ ________________________________________________________________________________
     position: relative;
 }
 
-.etiPrincipal {
+.etiT{
     position: absolute;
-    top: 30%;
-    left: 25%;
-    width: 100vh;
-    height: 40vh;
+    font-size: 8vw;
+    left: 37%;
+    right: 33%;
+    top: 7%;
+    font-family: "eras-demi";
+}
+
+.etip{
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.etiPrincipal {
+    display:block;
+    margin:auto;
+}
+
+.der1{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    left: 80%;
+}
+
+.der2{
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    left: 80%;
+}
+
+.izq1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 85%;
+}
+
+.izq2{
+    position: absolute;
+    top: 40%;
+    bottom: 30%;
+    left: 5%;
+    right: 85%;
+}
+
+.izq3{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 85%;
 }
